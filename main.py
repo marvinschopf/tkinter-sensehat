@@ -55,7 +55,7 @@ class Application():
 			tkMessageBox.showerror("Fehler", "Es wird bereits etwas angezeigt.")
 
 	def quit_app(self):
-		tkMessageBox.showinfo("Vielen Dank!", "Vielen Dank für die Nutzung von senseUI. Die Anwendung wird nun geschlossen.")
+		tkMessageBox.showinfo("Vielen Dank!", "Vielen Dank fuer die Nutzung von senseUI. Die Anwendung wird nun geschlossen.")
 		self.frame.quit()
 
 		
